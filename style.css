@@ -1,0 +1,155 @@
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: #1f1f1f;
+    color: #ffffff;
+    /* display: flex; */
+    align-items: center;
+    height: 100vh;
+    margin-left: 25%;
+}
+
+h1{
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+
+.app_container{
+    width: 849px;
+    height: 132px;
+    top: 132px;
+    left: 438px;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.timer_input{
+    padding: 15px;
+    background-color: #2a2a34;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 15px;
+    
+}
+
+.timer_input input {
+    width: 50px;
+    padding: 10px;
+    background-color: #39394e;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.set-button {
+
+    width: 124px;
+    height: 52px;
+    top: 174px;
+    left: 1115px;
+    padding: 10px;
+    background-color: #ffd700;
+    border-radius: 50px;
+    font-size: 22px;
+    color: #000;
+    cursor: pointer;
+}
+
+.current-time-button {
+    width: 413px;
+    height: 66px;
+    top: 313px;
+    left: 657px;
+    background-color: #4a4a5e;
+    padding: 10px 20px;
+    border-radius: 50px;
+    color: #fff;
+    cursor: pointer;
+    margin-bottom: 20px;
+    font-size: 19px;
+}
+
+
+.time_complete {
+    padding: 35px;
+    background-color: #ffd700;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 48px;
+    text-align: center;
+    border-radius: 15px;
+    color: #000;
+    
+}
+
+.reset-button {
+    width: 124px;
+    height: 52px;
+    top: 466px;
+    left: 1114px;
+    padding: 10px;
+    background-color: #000;
+    border-radius: 26px;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+    
+}
+
+input {
+    width: 50px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin: 0 5px;
+}
+
+.time_container {
+    margin-top: 20px;
+}
+
+.timer {
+    background-color: #39394e;
+    color: #ffffff;
+    padding: 15px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.timer button {
+    padding: 20px;
+    background-color: #ffd700;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    color: black;
+    cursor: pointer;
+}
+
+.timer button:hover {
+    background-color: #f7c600;
+}
+
+.time_complete {
+    display: none;
+    background-color: #ffdd57;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 20px 0;
+    color: #000;
+}
+
+.timer-text {
+    font-size: 18px;
+}
+

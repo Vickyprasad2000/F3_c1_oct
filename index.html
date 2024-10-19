@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multiple Timer App</title>
+    <link href="./style.css" rel="stylesheet" /> 
+</head>
+<body>  
+    <div class = "app_container">
+        <h1> Multiple Timer App</h1>
+        <div class = "timer_input">
+            SetTime:
+            <input type="number" class = "timer_input" id="hours" placeholder="hh" min="0" max="23">
+            <span class="separator">:</span>
+
+            <input type="number" class = "timer_input" id="minutes" placeholder="mm" min="0" max="60">
+            <span class="separator">:</span>
+
+            <input type="number" class = "timer_input" id="seconds" placeholder="ss" min="0" max="60">
+
+            <button class = "set-button" onclick="addTimer()">set</button>
+        </div>
+        <button class="current-time-button">Current Timer</button>
+        <div class = "time_complete">Timer is Up!
+            <button class="reset-button">OK</button>
+        </div>
+        <div class="time_container"></div>
+    </div>
+    <script src="./main.js"> </script>
+</body>
+</html>
